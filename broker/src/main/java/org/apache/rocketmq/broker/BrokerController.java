@@ -543,6 +543,9 @@ public class BrokerController {
         }
     }
 
+    /**
+     * register RequestCode --> processor
+     */
     public void registerProcessor() {
         /**
          * SendMessageProcessor
